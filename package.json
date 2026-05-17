@@ -1,0 +1,19 @@
+{
+  "name": "cakapla",
+  "version": "1.0.0",
+  "description": "Master 1000 Bahasa Melayu vocabulary words with spaced repetition",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
